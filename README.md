@@ -1,7 +1,7 @@
 # StealthChangerA4T
 A modified version of the A4T tool head and stealth changer dock and backplate, optimized for tool changing
 
-First and forremost, this project is derived from many existing projects, let me give credit where it is due!
+First and foremost, this project is derived from many existing projects, let me give credit where it is due!
 
 The backplate was modified from the official Draftshift Steath Changer:
 https://github.com/DraftShift/StealthChanger
@@ -31,7 +31,7 @@ Though the cable was simplified by me to smooth out the cavity
 
 The 3007 Fan Mount is my original design
 
-<img width="451" height="634" alt="image" src="https://github.com/user-attachments/assets/a74bd280-d5e0-43ca-81d7-c1da0838489d" />
+<img width="516" height="606" alt="image" src="https://github.com/user-attachments/assets/460d083b-a203-4624-91a5-fd1da777c1dd" />
 
 So why this project?
 
@@ -43,23 +43,24 @@ I had previously used the A4T tool head, and really appreciated its simplicity a
 However, the published backplate for the A4T was hard to print.  The A4T was designed for the XOL carriage, and had mounting points that were really not neccessary when used with a Stealth Changer back plate.  That, and it did not have magnets built in.  There was a modified dock upright that used magnets, but I rather preffered a dock that did not use the uprights at all.
 
 So, I began by updating the A4T, to flatten the back, and switch to heat set inserts in the body, rather than through bolts.  This allowed me to mount the screws from the backplate, since access is not an issue on the Stealth changer.
-I then added 4 magnets, 2 in front, and 2 on the bottom, to lock the tool head in place nicey
+I then added 6 magnets, 4 in front, and 2 on the bottom, to lock the tool head in place nicely
 
-<img width="572" height="606" alt="image" src="https://github.com/user-attachments/assets/dd9bc344-90af-4118-b8d7-855bca06330a" />
+<img width="519" height="498" alt="image" src="https://github.com/user-attachments/assets/095b0de0-a144-4d86-bc34-2212bcd05029" />
 
 Moving on to the dock, I took the existing modular dock, and merged it into a single body.  Modular is nice, but a single part is nicer.
-I left the back adjuster separate, but narrowed the entire body to 72mm.  I then updated the shape of the dock, to better fit the A4T, and to include the magnets.  I also opted for the Bambu style wiper.  I widened the attatching bolt spacing, and added an extra side support for the 2020 extrusion
+I narrowed the dock body to 72mm, so I could fit 5 toolheads on my 300mm Voron.  I originally left the back adjuster separate, but ended up including that in the single piece as well.  I then updated the shape of the dock, to better fit the A4T, and to include the magnets.  I also opted for the Bambu style wiper.  I widened the attatching bolt spacing, and added an extra side support for the 2020 extrusion.
 
-I updated the back adjuster, to give a better chamfer on the aligning, and to increase the slotted hole's width.  This allowed me to use a washer under the bolt.  I was seeing isuses with the original adjuster, where the bolt would scar the plastic, and not allow for minor adjustments
+Originally, I had no upright support, but I found that with my LDO kit, the 2020 extrustion was too easy to twist.  This is probably not necessary on a setup that uses a solid bar that goes all the way across, but I definitey needed that support for my kit.  I include a left and a right, but you only really need one on the FAR left and FAR right dock, not every dock.
 
-The dock is designed to print on the front face at a 45 degree angle
+The dock is designed to print on the front face at a 45 degree angle.
 
-<img width="616" height="512" alt="Screenshot 2026-02-21 142738" src="https://github.com/user-attachments/assets/69f721d6-299b-4afc-b328-d194893bee6a" />
+<img width="684" height="591" alt="image" src="https://github.com/user-attachments/assets/fb68dc0b-f1bc-499b-b20a-047cc769b71d" />
+<img width="558" height="627" alt="image" src="https://github.com/user-attachments/assets/dfbcd67d-7682-465d-9039-4e12c2729f3a" />
 
-Next, I updated the back plate.  I added a mounting point for the PCB, and added holes at the bottom to mount the A4T.  I also updated the chamfer, to not have any complete overhangs.  It also prints quite nicely flat now, with no supports
 
-<img width="478" height="594" alt="image" src="https://github.com/user-attachments/assets/f6fcee77-8ff7-46f1-b7f8-4092ff06187a" />
+Next, I updated the back plate.  I added a mounting point for the PCB, and added holes at the bottom to mount the A4T.  I also updated the chamfer, to not have any complete overhangs.  It prints quite nicely flat now, with no supports
 
+<img width="458" height="606" alt="image" src="https://github.com/user-attachments/assets/1846b887-8034-41fa-94dc-4b846a9133ad" />
 
 On to the PCB mount.  I really liked the WWG2 for its simplicity, so that is what I used here.  I liked the idea of the sock mount, but I had always struggled getting it off.  I opted for a smooth support for the sock.
 
